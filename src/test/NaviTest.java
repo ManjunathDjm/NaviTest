@@ -54,8 +54,8 @@ public class NaviTest extends BaseOne {
 	    System.out.println(ls2.getText());
 	    System.out.println("letterboxd--------------------");
 	    
-        //pageOneValues.removeAll(pageTwoValues);
-        //System.out.println("Missing items from pagetwo " + pageOneValues);
+        pageOneValues.removeAll(pageTwoValues);
+        System.out.println("Missing items from pagetwo " + pageOneValues);
 	    
 	    
     }
