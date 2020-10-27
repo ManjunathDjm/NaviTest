@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="navi" duration-ms="152134" started-at="2020-10-26T18:18:55Z" finished-at="2020-10-26T18:21:27Z">
+    <groups>
+    </groups>
+    <test name="navi" duration-ms="152134" started-at="2020-10-26T18:18:55Z" finished-at="2020-10-26T18:21:27Z">
+      <class name="test.NaviTest">
+        <test-method status="PASS" signature="openbrowser1(java.lang.String)[pri:0, instance:test.NaviTest@47f6473]" name="openbrowser1" is-config="true" duration-ms="2060" started-at="2020-10-26T23:48:55Z" finished-at="2020-10-26T23:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser1 -->
+        <test-method status="PASS" signature="searchButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.NaviTest@47f6473]" name="searchButton" duration-ms="149765" started-at="2020-10-26T23:48:57Z" finished-at="2020-10-26T23:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Steven Spielberg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.imdb.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://letterboxd.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButton -->
+        <test-method status="PASS" signature="closeAllDrivers()[pri:0, instance:test.NaviTest@47f6473]" name="closeAllDrivers" is-config="true" duration-ms="299" started-at="2020-10-26T23:51:27Z" finished-at="2020-10-26T23:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllDrivers -->
+      </class> <!-- test.NaviTest -->
+    </test> <!-- navi -->
+  </suite> <!-- navi -->
+</testng-results>

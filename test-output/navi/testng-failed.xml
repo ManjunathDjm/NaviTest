@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [navi]">
+  <parameter name="letterboxdurl" value="https://letterboxd.com/"/>
+  <parameter name="directorname" value="Steven Spielberg"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.imdb.com/"/>
+  <test thread-count="50" name="navi">
+    <classes>
+      <class name="test.NaviTest"/>
+    </classes>
+  </test> <!-- navi -->
+</suite> <!-- Failed suite [navi] -->
